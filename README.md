@@ -3,7 +3,7 @@ Authors: Raphael Marietan, Amine Ahmed Ghariani, Luca Bracone, Omid Karimi
 
 # TITLE HERE
 
-### Abstract - Test blabla
+## Abstract - Test blabla
 ... Bonjour 
 
 ### Research Questions
