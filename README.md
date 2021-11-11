@@ -23,7 +23,7 @@ This dataset contains all natural disasters in the US from 1953 to 2021, with mo
 #### 1. Data loading and handling
 This step is mostly done in Milestone 2. First, we find a ground truth dataset containing all natural disasters from past year. This will help us to generate a small dictionary used to extract relevant quotations from the Quotebank dataset using the Google Colab notebook, and also verify that we can correctly recreate a map of what happend. </br >
 We compute some basic statistics the two datasets, like the number of available quotes per type of incidents, how many incidents/quotes with respect to the date, etc... Also, we create some plots for a better understanding and visualization. We can conclude that the main part of the project we intend to do is feasible. </br >
-The code is present in the notebook """project.ipynb""".
+The code is present in the notebook ```project.ipynb```.
 #### 2. Recreating a map
 The main part of the project consist in contructing a map of natural catastrophies in the US through their occurences in the quotes. The idea is to work with one type of crisis at a time and build a map ... ???????????????
 
