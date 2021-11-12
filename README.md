@@ -64,4 +64,9 @@ For the last part, we will look more in depth at the quotations and their speake
 We will developp these ideas in more details for the next milestone, because it is still unsure exactly what aspect we want to work on. 
 
 ## Timeline and organization
-
+| Week number | Actionable items                                               | Assignment      |
+|-------------|----------------------------------------------------------------|-----------------|
+| Week 1-2    | Homework 2 + clearer outline of step 3                         | Everyone        |
+| Week 3      | Generate maps                                                  | Raphael + Amine |
+| Week 4      | Analysis of speaker (political affiliation) + begin data story | Omid + Luca     |
+| Week 5      | Write data story                                               | Everyone        |
