@@ -26,8 +26,8 @@ frequently occurring speakers are politicians.
 https://www.kaggle.com/headsortails/us-natural-disaster-declarations </br >
 This dataset contains all natural disasters in the US from 1953 to 2021, with most notably the exact date, location and type of disaster. It can be used to compare with the outcome of our observations on the natural disasters through the quotes. </br >
 
-(_Considered, but not used_) </br >
-- International, maybe better/more precise: https://www.emdat.be/
+- International, maybe better/more precise: https://www.emdat.be/ </br >
+(_Considered, but not used_) 
 
 
 ## Methods
