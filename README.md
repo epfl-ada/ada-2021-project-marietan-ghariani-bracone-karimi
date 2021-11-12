@@ -10,9 +10,7 @@ some of these disasters through the quotes of the Quotebank dataset and
 reconstruct a map of natural disasters in the US that is comparable to what
 really happend. Since the number of these phenomenon increases with each year,
 it is vital to take meaningful actions to protect the people and the
-infrastructures. We believe that the effectiveness of discussions regarding
-those topics is a consistent estimate of whether or not the situation was
-handled well. Climate change is also a relevant problematic, and we would like
+infrastructures. Climate change is also a relevant problematic, and we would like
 to see if its occurrence in discussion has increased or decreased over the
 years, and what is the political affiliation of those who mention it. In fact,
 we noticed that politics is a highly relevant factor, given that the most
@@ -24,12 +22,12 @@ frequently occurring speakers are politicians.
 - Does the speakers and quotes semantic help us conclude something on the involvments concerning disaters handling or climate ? 
 
 ## Additional datasets
-Natural disasters in US: </br >
+- Natural disasters in US: </br >
 https://www.kaggle.com/headsortails/us-natural-disaster-declarations </br >
 This dataset contains all natural disasters in the US from 1953 to 2021, with most notably the exact date, location and type of disaster. It can be used to compare with the outcome of our observations on the natural disasters through the quotes. </br >
 
 (_Considered, but not used_) </br >
-International, maybe better/more precise: https://www.emdat.be/
+- International, maybe better/more precise: https://www.emdat.be/
 
 
 ## Methods
@@ -41,7 +39,7 @@ small curated dictionary used to extract relevant quotations from the Quotebank
 dataset using the Google Colab notebook, and also verify that we can correctly
 recreate a map of what happend. 
 * We compute some basic statistics relating to each of the two datasets, like
- the number of available quotes per type of incidents, how many
+the number of available quotes per type of incidents, how many
 incidents/quotes with respect to the date, etc... Also, we draw some plots for a
 better understanding and visualization. Since we are able to find some
 informations about the places of the disasters, we can conclude that the main
@@ -66,4 +64,4 @@ For the last part, we will look more in depth at the quotations and their speake
 We will developp these ideas in more details for the next milestone, because it is still unsure exactly what aspect we want to work on. 
 
 ## Timeline and organization
-TODO
+
