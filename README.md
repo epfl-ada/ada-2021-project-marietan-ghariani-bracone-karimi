@@ -4,7 +4,19 @@ Authors: Raphael Marietan, Amine Ahmed Ghariani, Luca Bracone, Omid Karimi
 # TITLE HERE
 
 ## Abstract
-Natural disasters, such as earthquakes, hurricanes, floods and forest fires, occur every year causing a lot of damage. In this project the goal is to observe some of these disasters through the quotes of the Quotebank dataset and reconstruct a map of natural disasters in the US that is comparable to what really happend. It is indeed interesting, since the numbers of these phenomenon increases with the years, talks about actions taken for protecting the people and the infrastructures (<- TODO better wording?) and also the problematic of climate change are more abundant. These subjects are quite political and can be easily seen in the quotations dataset. ... DEVELOPP MORE (can still do ~70 words)
+Natural disasters, such as earthquakes, hurricanes, floods and forest fires,
+occur every year causing a lot of damage. In this project the goal is to observe
+some of these disasters through the quotes of the Quotebank dataset and
+reconstruct a map of natural disasters in the US that is comparable to what
+really happend. Since the number of these phenomenon increases with each year,
+it is vital to take meaningful actions to protecting the people and the
+infrastructures. We believe that the effectiveness of discussions regarding
+those topics is a consistent estimate of whether or not the situation was
+handled well. Climate change is also a relevant problematic, and we would like
+to see if its occurrence in discussion has increased or decreased over the
+years, and what is the political affiliation of those who mention it. In fact,
+we noticed that politics is a highly relevant factor, given that the most
+frequently occurring speakers are politicians.
 
 ## Research Questions
 - Can natural disasters be observed through the quotes of the Quotebank dataset ?
