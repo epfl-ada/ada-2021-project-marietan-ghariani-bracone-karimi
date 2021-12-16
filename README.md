@@ -18,7 +18,6 @@ to see if its occurrence in discussion has increased or decreased over the
 years, and what is the political affiliation of those who mention it. In fact,
 we noticed that politics is a highly relevant factor, given that the most
 frequently occurring speakers are politicians.
-TODO
 
 ## Research Questions
 - Can natural disasters worldwide, like hurricanes, earthquakes and others, be observed through the quotes of politicians and researchers in the Quotebank dataset ?
