@@ -1,7 +1,10 @@
 # ADA 2021 Project
 Authors: Raphael Marietan, Amine Ahmed Ghariani, Luca Bracone, Omid Karimi
 
-# Natural disasters through quotes 
+# Natural disasters through quotes
+
+## Data story
+[Link to the data story](https://omidou.github.io/Natural-disasters-through-quotes/)
 
 ## Abstract
 Natural disasters, such as earthquakes, hurricanes, floods and forest fires,
@@ -15,8 +18,10 @@ to see if its occurrence in discussion has increased or decreased over the
 years, and what is the political affiliation of those who mention it. In fact,
 we noticed that politics is a highly relevant factor, given that the most
 frequently occurring speakers are politicians.
+TODO
 
 ## Research Questions
+TODO
 - Can natural disasters be observed through the quotes of the Quotebank dataset ?
 - Is it possible to recreate a spatial and temporal map of natural disasters with the quotes, that is close to what really happend ?
 - Does the speakers and quotes semantic help us conclude something on the involvments concerning disaters handling or climate ? 
@@ -26,9 +31,8 @@ frequently occurring speakers are politicians.
 https://www.kaggle.com/headsortails/us-natural-disaster-declarations </br >
 This dataset contains all natural disasters in the US from 1953 to 2021, with most notably the exact date, location and type of disaster. It can be used to compare with the outcome of our observations on the natural disasters through the quotes. </br >
 
-- International, maybe better/more precise: https://www.emdat.be/ </br >
-(_Considered, but not used_) 
-
+- Main natural disasters that occured in the world: https://www.emdat.be/ </br >
+- Wikidata information for the speakers present in QuoteBank: provided ```parquet``` file.
 
 ## Methods
 #### 1. Data loading and handling
@@ -45,9 +49,10 @@ better understanding and visualization. Since we are able to find some
 informations about the places of the disasters, we can conclude that the main
 part of the project we intend to do is feasible.
 
-The code is present in the notebook `project.ipynb`.
+The code is present in the notebook `milestone2_backup.ipynb`.
 
 #### 2. Recreating a map
+TODO
 The main part of the project consist in constructing a map of natural
 disasters in the US through their occurences in the quotes. The idea is to
 build maps for fixed time periods, where we show the location and type of crisis
@@ -60,8 +65,27 @@ have a yearly (or for six months) map of the US, with the state borders, where
 we can see different types of disasters in different colors and their location.
 
 #### 3. Analyze speakers affiliation
+TODO
 For the last part, we will look more in depth at the quotations and their speakers. Indeed, we find mainly politicians in the speakers, and it would be interesting quickly to have a look at their opinions and affiliations. For this purpose, we need to work with another dataset (Wikidata as recommended in the description), but might have to look for some informations about speakers manually. Whether some actions were taken for the protection of the people, infrastructures or the environment could also be interesting, but might be too ambitious.</br >
 We will developp these ideas in more details for the next milestone, because it is still unsure exactly what aspect we want to work on. 
+
+## Repository
+- ```figures/``` contains plots and interactive plots
+- ```interactive_maps/``` contains the maps and the code to create them
+- ```milestone2_backup.ipynb``` is the notebook from Milestone 2
+- ```project.ipynb``` is the final notebook for Milestone 3
+
+### Summary of content for the project notebook
+- Data loading and cleaning of the datasets
+- Data visualisation
+- Examples of methods helping to create maps
+- Speaker analysis
+  - Topic detection in quotes
+  - Regression to predict occupations of speakers
+  - Regression to predict speakers political affiliation
+  - Sentiment analysis
+
+Note: Not all analysis were conclusive and might not be present in the data story.
 
 ## Timeline and organization
 | Week number | Actionable items                                               | Assignment      |
