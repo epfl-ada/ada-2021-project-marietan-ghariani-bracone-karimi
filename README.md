@@ -10,12 +10,12 @@ Authors: Raphael Marietan, Amine Ahmed Ghariani, Luca Bracone, Omid Karimi
 Natural disasters, such as earthquakes, hurricanes, floods and forest fires,
 occur every year causing a lot of damage. In this project the goal is to observe
 some of these disasters through the quotes of the Quotebank dataset and
-reconstruct a map of natural disasters in the US that is comparable to what
+reconstruct maps of natural disasters worldwide and in the US that is comparable to what
 really happend. Since the number of these phenomenon increases with each year,
 it is vital to take meaningful actions to protect the people and the
 infrastructures. Climate change is also a relevant problematic, and we would like
 to see if its occurrence in discussion has increased or decreased over the
-years, and what is the political affiliation of those who mention it. In fact,
+years, and what is the profession and political affiliation of those who mention it. In fact,
 we noticed that politics is a highly relevant factor, given that the most
 frequently occurring speakers are politicians.
 
@@ -79,7 +79,7 @@ We will also try other methods to see if they can give us other meaningful hinsi
   - Regression to predict speakers political affiliation
   - Sentiment analysis
 
-Note: Not all analysis were conclusive and might not be present in the data story.
+_Note: Not all analysis were conclusive and might not be present in the data story._
 
 ## Timeline and organization
 | Week number | Actionable items                                               | Assignment      |
