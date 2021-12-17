@@ -10,33 +10,29 @@ Authors: Raphael Marietan, Amine Ahmed Ghariani, Luca Bracone, Omid Karimi
 Natural disasters, such as earthquakes, hurricanes, floods and forest fires,
 occur every year causing a lot of damage. In this project the goal is to observe
 some of these disasters through the quotes of the Quotebank dataset and
-reconstruct a map of natural disasters in the US that is comparable to what
+reconstruct maps of natural disasters worldwide and in the US that is comparable to what
 really happend. Since the number of these phenomenon increases with each year,
 it is vital to take meaningful actions to protect the people and the
 infrastructures. Climate change is also a relevant problematic, and we would like
 to see if its occurrence in discussion has increased or decreased over the
-years, and what is the political affiliation of those who mention it. In fact,
+years, and what is the profession and political affiliation of those who mention it. In fact,
 we noticed that politics is a highly relevant factor, given that the most
 frequently occurring speakers are politicians.
-TODO
 
 ## Research Questions
-TODO
-- Can natural disasters be observed through the quotes of the Quotebank dataset ?
+- Can natural disasters worldwide, like hurricanes, earthquakes and others, be observed through the quotes of politicians and researchers in the Quotebank dataset ?
 - Is it possible to recreate a spatial and temporal map of natural disasters with the quotes, that is close to what really happend ?
-- Does the speakers and quotes semantic help us conclude something on the involvments concerning disaters handling or climate ? 
+- Does the vocabulary or topic used by the speakers give us hinsight on their occupations or political affiliation
 
 ## Additional datasets
 - Natural disasters in US: </br >
 https://www.kaggle.com/headsortails/us-natural-disaster-declarations </br >
 This dataset contains all natural disasters in the US from 1953 to 2021, with most notably the exact date, location and type of disaster. It can be used to compare with the outcome of our observations on the natural disasters through the quotes. </br >
-
 - Main natural disasters that occured in the world: https://www.emdat.be/ </br >
-- Wikidata information for the speakers present in QuoteBank: provided ```parquet``` file.
+- Wikidata information for the speakers present in QuoteBank: provided ```parquet``` [file](https://drive.google.com/drive/folders/1VAFHacZFh0oxSxilgNByb1nlNsqznUf0).
 
 ## Methods
 #### 1. Data loading and handling
-
 * This step is mostly done in Milestone 2. First, we find a ground truth dataset
 containing all natural disasters from past year. This will help us to generate a
 small curated dictionary used to extract relevant quotations from the Quotebank
@@ -52,22 +48,20 @@ part of the project we intend to do is feasible.
 The code is present in the notebook `milestone2_backup.ipynb`.
 
 #### 2. Recreating a map
-TODO
-The main part of the project consist in constructing a map of natural
-disasters in the US through their occurences in the quotes. The idea is to
+The main part of the project consist in constructing maps of natural
+disasters worldwide and in the US through their occurences in the quotes. The idea is to
 build maps for fixed time periods, where we show the location and type of crisis
 that happend. Through the number of quotations citing the natural disaster and a
 particular location, we can deduce the chance that there was indeed a
-catastrophe that occured. We think that building the map by state will be
+catastrophe that occured. We think that building the map by state (for the US) will be
 easier, since it is quite hard to pinpoint a location through the quotes alone,
 but from what we can observe it is still feasible. The final goal would be to
-have a yearly (or for six months) map of the US, with the state borders, where
+have yearly (or for six months) maps of the US, or of the world where
 we can see different types of disasters in different colors and their location.
 
-#### 3. Analyze speakers affiliation
-TODO
-For the last part, we will look more in depth at the quotations and their speakers. Indeed, we find mainly politicians in the speakers, and it would be interesting quickly to have a look at their opinions and affiliations. For this purpose, we need to work with another dataset (Wikidata as recommended in the description), but might have to look for some informations about speakers manually. Whether some actions were taken for the protection of the people, infrastructures or the environment could also be interesting, but might be too ambitious.</br >
-We will developp these ideas in more details for the next milestone, because it is still unsure exactly what aspect we want to work on. 
+#### 3. Analyze speaker quotes and vocabulary
+For the last part, we will look more in depth at the quotations and their speakers. We will try various methods of machine learning and text handling seen in class. At first, the goal would be to detect the topics present in the speeches of the speakers and then using regression, we could try to build a model to determine wheter the speaker is a politician or another influencial person (in the case of natural disasters, mostly reseachers). For this purpose, we need to work with another dataset (Wikidata as recommended in the description), but might have to look for some informations about speakers manually. </br>
+We will also try other methods to see if they can give us other meaningful hinsights (sentiment analysis, other regressions, ...)
 
 ## Repository
 - ```figures/``` contains plots and interactive plots
@@ -85,7 +79,7 @@ We will developp these ideas in more details for the next milestone, because it 
   - Regression to predict speakers political affiliation
   - Sentiment analysis
 
-Note: Not all analysis were conclusive and might not be present in the data story.
+_Note: Not all analysis were conclusive and might not be present in the data story._
 
 ## Timeline and organization
 | Week number | Actionable items                                               | Assignment      |
