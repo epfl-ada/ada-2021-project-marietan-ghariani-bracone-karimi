@@ -67,6 +67,7 @@ We will also try other methods to see if they can give us other meaningful hinsi
 - ```figures/``` contains plots and interactive plots
 - ```interactive_maps/``` contains the maps and the code to create them (```us_map.ipynb``` and ```world_map.ipynb```)
 - ```milestone2_backup.ipynb``` is the notebook from Milestone 2
+- ```extension.ipynb``` contains some additional analysis
 - ```project.ipynb``` is the final notebook for Milestone 3
 
 ### Summary of content for the project notebook
